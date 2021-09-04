@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom,#68EACC 0%,#497BE8 100%);
+}
+
+.wrapper{
+    margin: 120px auto;
+    max-width: 400px;
+    width: 100%;
+    background: #fff;;
+    border-radius: 5px;
+    padding: 25px;;
+}
+.wrapper header{
+
+    font-size: 30px;
+    font-weight: 600;
+}
+.wrapper .inputfield{
+    display: flex;
+    height: 45px;
+    width: 100%;
+    margin: 0px;
+
+
+}
+.inputfield input{
+    width: 85%;
+    height: 100%;
+    border: 1px solid #ccc;
+    font-size: 17px;
+    border-radius:3px;
+    padding-left: 15px;
+
+}
+
+.inputfield button{
+    width: 60px;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: #8e498e;
+    color: #fff;
+    font-size: 22PX;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 5px;
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+
+.inputfield button.active{
+    opacity: 1;
+    pointer-events:auto;
+}
+
+
+
+.wrapper .todolist{
+    max-height: 250px;
+    overflow-y: auto;
+
+}
+.todolist li{
+    list-style: none;
+    height: 45px;
+    line-height: 45px;
+    position: relative;
+    background: #f2f2f2;
+    border-radius: 3px;
+    margin-bottom: 8px;
+    padding: 0 15px;
+    cursor: default;
+    margin-top: 8px;
+    overflow: hidden;
+
+}
+.todolist li span{
+    position: absolute;
+    right: -45px;
+    width: 45px;
+    color: #fff;
+    background: #e74c3c;
+    text-align: center;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    transition:all 0.3s ease;
+    padding: 15px;
+}
+.todolist li:hover span{
+
+    right: 0px;
+
+}
+.wrapper .footer{
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footer button.active{
+    opacity: 1;
+    pointer-events: auto;
+    }
+
+
+
+.footer button{
+    width: auto;
+    height: auto;
+    padding: 6px 10px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 5px;
+    background: #8E49E8;
+    cursor: pointer;
+    user-select: none;
+    opacity: 1;
+    pointer-events:auto;
+    transition: all 0.3s ease;
+  }
+  
+
+
+
+
+
+
+
+
+a{
+    margin-left: 43%;
+}
+
+
+body{
+    background-size: cover;
+}
+
+h2{
+    color:black;
+}
+
+
+.LOGIN{
+    float: right;
+    border:2px solid black;
+    background-color: wheat;
+    margin-right: 40%;
+    margin-top: 2%;
+    height: 25em;
+    width: 28em;
+    padding:30px;
+    margin-left: 2px;
+}
+button{
+    width: 50%;
+    height: 1.5em;
+    background-color:black;
+    color: white;
+    border: 1px solid black;
+}
